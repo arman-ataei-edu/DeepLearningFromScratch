@@ -43,7 +43,7 @@ def deriv(
         input_: np.ndarray,
         delta: float= 0.001 )-> np.ndarray:
     '''
-    Evaluates the derivative of a function "func" at every element in
+    Evaluates the estimated derivative of a function "func" at every element in
     "input_" array
     '''
     return (
